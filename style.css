@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	/* background-image: linear-gradient(120deg, #9fd2db, #3c74c7); */
+    background-color: #3c74c7;
+	color: white;
+	font-family: "Poppins", sans-serif;
+	min-height: 100vh;
+}
+
+header {
+    padding: 1rem;
+    text-align: center;
+	font-size: 1.5rem;
+}
