@@ -12,6 +12,7 @@ header a {
 
 a {
 	color:white;
+	text-decoration: none;
 	
 }
 
@@ -29,6 +30,21 @@ header {
     text-align: center;
 	font-size: 1.5rem;
 	margin-bottom: 3rem;
+}
+
+@media only screen and (max-height: 600px) {
+	.no-mobile {
+		display: none;
+	}
+
+	.play-area {
+		display: flex;
+		min-height: 100vh;
+		width: 100% !important;
+		height: 100% !important;
+		margin: 0;
+		
+	}
 }
 
 .no-display {
